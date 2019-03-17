@@ -1,0 +1,3 @@
+/Users/gounchoi/Desktop/컴퓨터공학과_2016112182_최고운/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/gounchoi/Desktop/컴퓨터공학과_2016112182_최고운/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/gounchoi/Desktop/컴퓨터공학과_2016112182_최고운/cmake-build-debug/CMakeFiles/_2016112182_.dir
