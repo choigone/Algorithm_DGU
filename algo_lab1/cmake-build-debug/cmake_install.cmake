@@ -1,4 +1,4 @@
-# Install script for directory: /Users/gounchoi/Desktop/컴퓨터공학과_2016112182_최고운
+# Install script for directory: /Users/gounchoi/Desktop/algo_lab1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/gounchoi/Desktop/컴퓨터공학과_2016112182_최고운/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/gounchoi/Desktop/algo_lab1/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
