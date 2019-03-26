@@ -1,5 +1,3 @@
-//TODO compare and move count 수정하기
-
 #include <iostream>
 #include <time.h>
 #include <algorithm>
@@ -9,36 +7,47 @@ typedef int itemType;
 
 using namespace std;
 
-int* insertion(itemType a[], int n){
-    int i,j; itemType v;
+int* Bubble(int sorted, itemType *a){
+    int temp;
+    int *result = new int[3];
+    result[0] = sorted;
+    result[1] = 0;
+    result[2] = 0;
+    if(*(a-1)>*a){
+        result[1]++;
+        // TODO 데이터 빼는 것도 이동인가요?
+        temp = *(a-1);
+        *(a-1) = *a;
+        result[2]++;
+        *a = temp;
+        result[2]++;
+        sorted = false;
+    }
+    result[0] = sorted;
+
+    return result;
+}
+
+int* bubbleSort(itemType a[],int n){
+    int i, Sorted;
+    int *result = new int[3];
     int *cnt = new int[2];
-    cnt[0] = 0;
-    cnt[1] = 0;
-    a[-1] = 0;
-    for(i = 1 ; i < n; i++){
-        v = a[i]; j=i;
-        //TODO 데이터를 빼는 것도 이동인가?
-        //TODO cnt[1]++;
-        while(1){
-            if(a[j-1] > v){
-                cnt[0]++;
-                a[j] = a[j-1];
-                j--;
-                cnt[1]++;
-            }
-            else{
-                cnt[0]++;
-                // TODO cnt[1]--;
-                break;
-            }
+    cnt[0]=0;
+    cnt[1]=0;
+    Sorted = false;
+    while(!Sorted){
+        Sorted = true;
+        for(i =1;i<n;i++){
+            result = Bubble(Sorted, &a[i]);
+            Sorted = result[0];
+            cnt[0] += result[1];
+            cnt[1] += result[2];
         }
-        a[j] = v;
-        cnt[1]++;
     }
     for(int i=0;i<20;i++){
         cout<<a[i];
     }
-    cout << endl;
+    cout<<endl;
     return cnt;
 }
 
@@ -57,15 +66,14 @@ int main() {
         v.push_back(pair<int,int>(rand()%size+1,i+1));
     }
     sort(v.begin(), v.end());
-    for(int i=0;i<size;i++){
+    for(int i=0;i<size;i++) {
         a[i] = size - i;
         b[i] = v[i].second;
     }
-
     printf("SortedData_A : ");
-    cntA = insertion(a,size);
+    cntA = bubbleSort(a,size);
     printf("SortedData_B : ");
-    cntB = insertion(b,size);
+    cntB = bubbleSort(b,size);
     printf("Compare_Cnt_A : %d, DataMove_Cnt_A : %d\n",cntA[0],cntA[1]);
     printf("Compare_Cnt_B : %d, DataMove_Cnt_B : %d\n",cntB[0],cntB[1]);
 

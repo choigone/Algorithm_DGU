@@ -57,27 +57,27 @@ include CMakeFiles/algo_lab3.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/algo_lab3.dir/flags.make
 
-CMakeFiles/algo_lab3.dir/main.cpp.o: CMakeFiles/algo_lab3.dir/flags.make
-CMakeFiles/algo_lab3.dir/main.cpp.o: /Users/gounchoi/Desktop/동대생최고운/3학년1학기/컴퓨터알고리즘과실습/Algorithm_DGU/algo_lab3/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gounchoi/Desktop/동대생최고운/3학년1학기/컴퓨터알고리즘과실습/Algorithm_DGU/algo_lab3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/algo_lab3.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/algo_lab3.dir/main.cpp.o -c /Users/gounchoi/Desktop/동대생최고운/3학년1학기/컴퓨터알고리즘과실습/Algorithm_DGU/algo_lab3/main.cpp
+CMakeFiles/algo_lab3.dir/homework4.cpp.o: CMakeFiles/algo_lab3.dir/flags.make
+CMakeFiles/algo_lab3.dir/homework4.cpp.o: /Users/gounchoi/Desktop/동대생최고운/3학년1학기/컴퓨터알고리즘과실습/Algorithm_DGU/algo_lab3/homework4.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gounchoi/Desktop/동대생최고운/3학년1학기/컴퓨터알고리즘과실습/Algorithm_DGU/algo_lab3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/algo_lab3.dir/homework4.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/algo_lab3.dir/homework4.cpp.o -c /Users/gounchoi/Desktop/동대생최고운/3학년1학기/컴퓨터알고리즘과실습/Algorithm_DGU/algo_lab3/homework4.cpp
 
-CMakeFiles/algo_lab3.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/algo_lab3.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/gounchoi/Desktop/동대생최고운/3학년1학기/컴퓨터알고리즘과실습/Algorithm_DGU/algo_lab3/main.cpp > CMakeFiles/algo_lab3.dir/main.cpp.i
+CMakeFiles/algo_lab3.dir/homework4.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/algo_lab3.dir/homework4.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/gounchoi/Desktop/동대생최고운/3학년1학기/컴퓨터알고리즘과실습/Algorithm_DGU/algo_lab3/homework4.cpp > CMakeFiles/algo_lab3.dir/homework4.cpp.i
 
-CMakeFiles/algo_lab3.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/algo_lab3.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/gounchoi/Desktop/동대생최고운/3학년1학기/컴퓨터알고리즘과실습/Algorithm_DGU/algo_lab3/main.cpp -o CMakeFiles/algo_lab3.dir/main.cpp.s
+CMakeFiles/algo_lab3.dir/homework4.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/algo_lab3.dir/homework4.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/gounchoi/Desktop/동대생최고운/3학년1학기/컴퓨터알고리즘과실습/Algorithm_DGU/algo_lab3/homework4.cpp -o CMakeFiles/algo_lab3.dir/homework4.cpp.s
 
 # Object files for target algo_lab3
 algo_lab3_OBJECTS = \
-"CMakeFiles/algo_lab3.dir/main.cpp.o"
+"CMakeFiles/algo_lab3.dir/homework4.cpp.o"
 
 # External object files for target algo_lab3
 algo_lab3_EXTERNAL_OBJECTS =
 
-algo_lab3: CMakeFiles/algo_lab3.dir/main.cpp.o
+algo_lab3: CMakeFiles/algo_lab3.dir/homework4.cpp.o
 algo_lab3: CMakeFiles/algo_lab3.dir/build.make
 algo_lab3: CMakeFiles/algo_lab3.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/gounchoi/Desktop/동대생최고운/3학년1학기/컴퓨터알고리즘과실습/Algorithm_DGU/algo_lab3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable algo_lab3"

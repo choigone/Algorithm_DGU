@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/gounchoi/Desktop/동대생최고운/3학년1학기/컴퓨터알고리즘과실습/Algorithm_DGU/algo_lab3/main.cpp">
+		<Unit filename="/Users/gounchoi/Desktop/동대생최고운/3학년1학기/컴퓨터알고리즘과실습/Algorithm_DGU/algo_lab3/homework4.cpp">
 			<Option target="algo_lab3"/>
 		</Unit>
 		<Unit filename="/Users/gounchoi/Desktop/동대생최고운/3학년1학기/컴퓨터알고리즘과실습/Algorithm_DGU/algo_lab3/CMakeLists.txt">
