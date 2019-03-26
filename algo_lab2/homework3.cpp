@@ -68,6 +68,7 @@ int main(){
 }
 
 void traverse(treeNode *t, char c){
+    int index = 0;
     queue.put(t);
     while(!queue.empty()){
         t = queue.get();
@@ -75,6 +76,7 @@ void traverse(treeNode *t, char c){
             queue.put(t->l);
             t->l->level = (t->level) + 1;
             if(t->l->info == c){
+                index = 1;
                 cout << t->l->level;
             }
         }
@@ -82,8 +84,12 @@ void traverse(treeNode *t, char c){
             queue.put(t->r);
             t->r->level = (t->level) + 1;
             if(t->r->info == c){
+                index = 1;
                 cout << t->r->level;
             }
         }
+    }
+    if(index == 0){
+        cout << "Not Found";
     }
 }

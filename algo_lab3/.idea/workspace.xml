@@ -13,17 +13,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cd8460b7-641d-4f32-93b0-69df4130277d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/algo_lab3.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/algo_lab3.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/algo_lab3.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/algo_lab3.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/algo_lab3.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/algo_lab3.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/algo_lab3.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/algo_lab3.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/algo_lab3.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/algo_lab3.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/algo_lab3.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/algo_lab3.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/homework1.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,7 +36,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/homework1.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="165">
               <caret line="11" selection-start-line="11" selection-end-line="42" selection-end-column="1" />
               <folding>
                 <element signature="e#36#55#0" expanded="true" />
@@ -59,8 +48,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/homework2.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+            <state relative-caret-position="375">
+              <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
               <folding>
                 <element signature="e#36#55#0" expanded="true" />
               </folding>
@@ -71,7 +60,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/homework3.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="659">
+            <state relative-caret-position="690">
               <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
@@ -83,8 +72,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/homework4.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="69" column="30" lean-forward="true" selection-start-line="69" selection-start-column="30" selection-end-line="69" selection-end-column="30" />
+            <state relative-caret-position="408">
+              <caret line="75" column="13" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -116,7 +105,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -128,6 +116,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -173,11 +162,13 @@
       <workItem from="1553596509916" duration="2239000" />
       <workItem from="1553599125439" duration="1578000" />
       <workItem from="1553600720746" duration="10442000" />
+      <workItem from="1553616626038" duration="346000" />
+      <workItem from="1553619122808" duration="36000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25354000" />
+    <option name="totallyTimeSpent" value="25736000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -189,10 +180,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1116" height="1050" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20856611" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21367522" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -320,13 +310,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="41" column="5" selection-start-line="39" selection-start-column="4" selection-end-line="41" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test.cpp" />
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -336,8 +320,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/homework1.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
+        <state relative-caret-position="165">
           <caret line="11" selection-start-line="11" selection-end-line="42" selection-end-column="1" />
+          <folding>
+            <element signature="e#36#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework2.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
           <folding>
             <element signature="e#36#55#0" expanded="true" />
           </folding>
@@ -346,7 +340,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/homework3.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="659">
+        <state relative-caret-position="690">
           <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
@@ -354,20 +348,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/homework2.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
-          <folding>
-            <element signature="e#36#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/homework4.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="69" column="30" lean-forward="true" selection-start-line="69" selection-start-column="30" selection-end-line="69" selection-end-column="30" />
+        <state relative-caret-position="408">
+          <caret line="75" column="13" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
         </state>
       </provider>
     </entry>
