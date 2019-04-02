@@ -1,4 +1,4 @@
-//TODO compare and move count 수정하기
+//TODO 상수정의하기 20
 
 #include <iostream>
 #include <time.h>
@@ -18,7 +18,7 @@ int* insertion(itemType a[], int n){
     for(i = 1 ; i < n; i++){
         v = a[i]; j=i;
         //TODO 데이터를 빼는 것도 이동인가?
-        //TODO cnt[1]++;
+        cnt[1]++;
         while(1){
             if(a[j-1] > v){
                 cnt[0]++;
@@ -36,7 +36,7 @@ int* insertion(itemType a[], int n){
         cnt[1]++;
     }
     for(int i=0;i<20;i++){
-        cout<<a[i];
+        cout<<a[i]<<" ";
     }
     cout << endl;
     return cnt;

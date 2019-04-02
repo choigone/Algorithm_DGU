@@ -1,6 +1,3 @@
-//TODO compare and move count 수정하기
-//TODO 알고리즘 이해하기
-
 #include <iostream>
 #include <time.h>
 #include <algorithm>
@@ -21,7 +18,9 @@ int* shellSort(itemType a[],int n){
     do{
         h = h/3;
         for(i=h;i<n;i++){
-            v = a[i]; j = i;
+            v = a[i];
+            cnt[1]++;
+            j = i;
             while(1){
                 if(a[j-h] > v){
                     cnt[0]++;
@@ -40,7 +39,7 @@ int* shellSort(itemType a[],int n){
     } while(h>1);
 
     for(int i=0; i<20;i++){
-        cout << a[i];
+        cout << a[i] << " ";
     }
     cout<<endl;
     return cnt;

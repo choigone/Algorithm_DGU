@@ -53,6 +53,7 @@ int bubbleSort(itemType a[],int n){
             Sorted = result[0];
             count += result[1];
         }
+        n--;
     }
     return count;
 }
@@ -67,8 +68,8 @@ int shellSort(itemType a[],int n){
         h = h/3;
         for(i=h;i<n;i++){
             v = a[i]; j = i;
+            count+=v;
             while(a[j-h] > v){
-                count+=v;
                 a[j] = a[j-h];
                 count+=a[j];
                 j-=h;

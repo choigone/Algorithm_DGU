@@ -15,14 +15,15 @@ int* Bubble(int sorted, itemType *a){
     result[2] = 0;
     if(*(a-1)>*a){
         result[1]++;
-        // TODO 데이터 빼는 것도 이동인가요?
         temp = *(a-1);
+        result[2]++;
         *(a-1) = *a;
         result[2]++;
         *a = temp;
         result[2]++;
         sorted = false;
     }
+    else result[1]++;
     result[0] = sorted;
 
     return result;
@@ -43,9 +44,10 @@ int* bubbleSort(itemType a[],int n){
             cnt[0] += result[1];
             cnt[1] += result[2];
         }
+        n--;
     }
     for(int i=0;i<20;i++){
-        cout<<a[i];
+        cout<<a[i] <<" ";
     }
     cout<<endl;
     return cnt;
