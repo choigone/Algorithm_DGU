@@ -3,4 +3,4 @@ project(algo_lab4)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(algo_lab4 homework1.cpp)
+add_executable(algo_lab4 homework3.cpp datafile.txt)

@@ -11,15 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd8460b7-641d-4f32-93b0-69df4130277d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../algo_lab2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../algo_lab2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/algo_lab3" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/algo_lab3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/homework1.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/homework2.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework3.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/homework3.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework4.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/homework4.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="cd8460b7-641d-4f32-93b0-69df4130277d" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +55,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/homework3.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
+            <state relative-caret-position="825">
               <caret line="55" column="12" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
@@ -76,7 +68,7 @@
         <entry file="file://$PROJECT_DIR$/homework4.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="497">
-              <caret line="64" column="18" lean-forward="true" selection-start-line="64" selection-start-column="18" selection-end-line="64" selection-end-column="18" />
+              <caret line="64" column="18" selection-start-line="64" selection-start-column="18" selection-end-line="64" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -108,6 +100,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -119,7 +112,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -176,11 +168,12 @@
       <workItem from="1554217949999" duration="5000" />
       <workItem from="1554217971040" duration="117000" />
       <workItem from="1554218217360" duration="594000" />
+      <workItem from="1554272461054" duration="146000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37996000" />
+    <option name="totallyTimeSpent" value="38142000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -193,9 +186,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.082417585" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.083028086" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -319,6 +311,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.cpp" />
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/homework1.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
@@ -338,7 +337,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/homework3.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
+        <state relative-caret-position="825">
           <caret line="55" column="12" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
@@ -346,17 +345,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/homework4.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="497">
-          <caret line="64" column="18" lean-forward="true" selection-start-line="64" selection-start-column="18" selection-end-line="64" selection-end-column="18" />
+          <caret line="64" column="18" selection-start-line="64" selection-start-column="18" selection-end-line="64" selection-end-column="18" />
         </state>
       </provider>
     </entry>
