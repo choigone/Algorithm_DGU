@@ -40,7 +40,7 @@ void stringSort(vector<pair<string,int>> &a, int first, int n){
     pair<string,int> temp;
     for(int i=0;i<n-1;i++){
         for(int j=i+1;j<n;j++){
-            if(a[i+first].first.compare(a[j+first].first) > 0 ){
+            if(a[i+first].first.compare(a[j+first].first) < 0 ){
                 temp = a[i+first];
                 a[i+first] = a[j+first];
                 a[j+first] = temp;
@@ -138,5 +138,7 @@ int main(){
         k++;
     }
 
-
+    for(int i=final.size()-1;i>=0;i--){
+        cout << final[i].first << " : " << final[i].second+1 << endl;
+    }
 }
