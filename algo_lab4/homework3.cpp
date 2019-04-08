@@ -84,6 +84,7 @@ int main(){
     }
 
     vector<vector<string>> result;
+    //모든 특수문자 처리
     string del = "";
     for(int i=32;i<=47;i++) del+=i;
     for(int i=58;i<=64;i++) del+=i;

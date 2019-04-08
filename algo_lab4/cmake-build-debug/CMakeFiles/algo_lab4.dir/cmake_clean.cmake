@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/algo_lab4.dir/homework3.cpp.o"
+  "CMakeFiles/algo_lab4.dir/homework1.cpp.o"
   "algo_lab4.pdb"
   "algo_lab4"
 )

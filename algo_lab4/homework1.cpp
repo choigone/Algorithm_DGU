@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 
-#define NUM 20
+#define NUM 5
 
 typedef int itemType;
 
@@ -37,6 +37,7 @@ int partition(itemType a[], int l, int r, int &compare, int &move){
                 move+=3;
             }
         }
+
         swap(a,j,l);
         move+=3;
     }
@@ -69,6 +70,9 @@ int main() {
         a[i] = size - i;
         b[i] = v[i].second;
     }
+    // +infinity
+    a[size] = size+1;
+    b[size] = size+1;
 
     int compareA=0,moveA=0;
     int compareB=0,moveB=0;
