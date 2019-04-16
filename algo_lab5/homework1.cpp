@@ -23,7 +23,6 @@ public:
         Parent = Root;
         RootValue = a[Root];
         move++;
-        //LeftSon = 2*Parent+1;
         LeftSon = 2*Parent;
         RightSon = LeftSon + 1;
         while(LeftSon < LastNode) {
