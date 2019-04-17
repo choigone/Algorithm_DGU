@@ -123,32 +123,32 @@ algo_lab6/fast:
 	$(MAKE) -f CMakeFiles/algo_lab6.dir/build.make CMakeFiles/algo_lab6.dir/build
 .PHONY : algo_lab6/fast
 
-homework3.o: homework3.cpp.o
+homework2.o: homework2.cpp.o
 
-.PHONY : homework3.o
+.PHONY : homework2.o
 
 # target to build an object file
-homework3.cpp.o:
-	$(MAKE) -f CMakeFiles/algo_lab6.dir/build.make CMakeFiles/algo_lab6.dir/homework3.cpp.o
-.PHONY : homework3.cpp.o
+homework2.cpp.o:
+	$(MAKE) -f CMakeFiles/algo_lab6.dir/build.make CMakeFiles/algo_lab6.dir/homework2.cpp.o
+.PHONY : homework2.cpp.o
 
-homework3.i: homework3.cpp.i
+homework2.i: homework2.cpp.i
 
-.PHONY : homework3.i
+.PHONY : homework2.i
 
 # target to preprocess a source file
-homework3.cpp.i:
-	$(MAKE) -f CMakeFiles/algo_lab6.dir/build.make CMakeFiles/algo_lab6.dir/homework3.cpp.i
-.PHONY : homework3.cpp.i
+homework2.cpp.i:
+	$(MAKE) -f CMakeFiles/algo_lab6.dir/build.make CMakeFiles/algo_lab6.dir/homework2.cpp.i
+.PHONY : homework2.cpp.i
 
-homework3.s: homework3.cpp.s
+homework2.s: homework2.cpp.s
 
-.PHONY : homework3.s
+.PHONY : homework2.s
 
 # target to generate assembly for a file
-homework3.cpp.s:
-	$(MAKE) -f CMakeFiles/algo_lab6.dir/build.make CMakeFiles/algo_lab6.dir/homework3.cpp.s
-.PHONY : homework3.cpp.s
+homework2.cpp.s:
+	$(MAKE) -f CMakeFiles/algo_lab6.dir/build.make CMakeFiles/algo_lab6.dir/homework2.cpp.s
+.PHONY : homework2.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... algo_lab6"
-	@echo "... homework3.o"
-	@echo "... homework3.i"
-	@echo "... homework3.s"
+	@echo "... homework2.o"
+	@echo "... homework2.i"
+	@echo "... homework2.s"
 .PHONY : help
 
 

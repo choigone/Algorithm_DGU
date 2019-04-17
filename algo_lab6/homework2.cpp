@@ -76,6 +76,7 @@ infoType BST::BSTdelete(itemType v, infoType info) {
         x->r=t->r;
     }
     free(t);
+    info++;
     if(v<p->key) p->l =x; else p->r=x;
 
     return info;
@@ -98,10 +99,10 @@ int main() {
     int index, count = 0;
     for(int i=0;i<size/10;i++){
         index = rand()%9;
-        count += bst.BSTdelete(i*10+index, count);
+        count += bst.BSTdelete(i*10+index, 0);
     }
 
-    cout << (double)count/(double)size;
+    cout << (double)count/(double)(size/10);
 
     return 0;
 }

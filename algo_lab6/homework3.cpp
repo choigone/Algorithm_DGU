@@ -87,7 +87,6 @@ int main() {
     BST bst = BST(size);
     for(int i=0;i<size;i++) bst.BSTinsert(a[i],0);
     bst.inorderTraverse(bst.getHead()->r);
-//    for(int i=0;i<size;i++) cout << bst.result[i] << " ";
 
     BST bst2 = BST(size);
     for(int i=0;i<size;i++) bst2.BSTinsert(bst.result[i],0);
