@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/gounchoi/Desktop/동대생최고운/3학년1학기/컴퓨터알고리즘과실습/Algorithm_DGU/algo_lab6
+CMAKE_SOURCE_DIR = /Users/gounchoi/Desktop/동대생최고운/3학년1학기/컴퓨터알고리즘과실습/Algorithm_DGU/algo_lab7
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/gounchoi/Desktop/동대생최고운/3학년1학기/컴퓨터알고리즘과실습/Algorithm_DGU/algo_lab6/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/gounchoi/Desktop/동대생최고운/3학년1학기/컴퓨터알고리즘과실습/Algorithm_DGU/algo_lab7/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/gounchoi/Desktop/동대생최고운/3학년1학기/컴퓨터알고리즘과실습/Algorithm_DGU/algo_lab6/cmake-build-debug/CMakeFiles /Users/gounchoi/Desktop/동대생최고운/3학년1학기/컴퓨터알고리즘과실습/Algorithm_DGU/algo_lab6/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/gounchoi/Desktop/동대생최고운/3학년1학기/컴퓨터알고리즘과실습/Algorithm_DGU/algo_lab7/cmake-build-debug/CMakeFiles /Users/gounchoi/Desktop/동대생최고운/3학년1학기/컴퓨터알고리즘과실습/Algorithm_DGU/algo_lab7/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/gounchoi/Desktop/동대생최고운/3학년1학기/컴퓨터알고리즘과실습/Algorithm_DGU/algo_lab6/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/gounchoi/Desktop/동대생최고운/3학년1학기/컴퓨터알고리즘과실습/Algorithm_DGU/algo_lab7/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,44 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named algo_lab6
+# Target rules for targets named algo_lab7
 
 # Build rule for target.
-algo_lab6: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 algo_lab6
-.PHONY : algo_lab6
+algo_lab7: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 algo_lab7
+.PHONY : algo_lab7
 
 # fast build rule for target.
-algo_lab6/fast:
-	$(MAKE) -f CMakeFiles/algo_lab6.dir/build.make CMakeFiles/algo_lab6.dir/build
-.PHONY : algo_lab6/fast
+algo_lab7/fast:
+	$(MAKE) -f CMakeFiles/algo_lab7.dir/build.make CMakeFiles/algo_lab7.dir/build
+.PHONY : algo_lab7/fast
 
-homework3.o: homework3.cpp.o
+homework1.o: homework1.cpp.o
 
-.PHONY : homework3.o
+.PHONY : homework1.o
 
 # target to build an object file
-homework3.cpp.o:
-	$(MAKE) -f CMakeFiles/algo_lab6.dir/build.make CMakeFiles/algo_lab6.dir/homework3.cpp.o
-.PHONY : homework3.cpp.o
+homework1.cpp.o:
+	$(MAKE) -f CMakeFiles/algo_lab7.dir/build.make CMakeFiles/algo_lab7.dir/homework1.cpp.o
+.PHONY : homework1.cpp.o
 
-homework3.i: homework3.cpp.i
+homework1.i: homework1.cpp.i
 
-.PHONY : homework3.i
+.PHONY : homework1.i
 
 # target to preprocess a source file
-homework3.cpp.i:
-	$(MAKE) -f CMakeFiles/algo_lab6.dir/build.make CMakeFiles/algo_lab6.dir/homework3.cpp.i
-.PHONY : homework3.cpp.i
+homework1.cpp.i:
+	$(MAKE) -f CMakeFiles/algo_lab7.dir/build.make CMakeFiles/algo_lab7.dir/homework1.cpp.i
+.PHONY : homework1.cpp.i
 
-homework3.s: homework3.cpp.s
+homework1.s: homework1.cpp.s
 
-.PHONY : homework3.s
+.PHONY : homework1.s
 
 # target to generate assembly for a file
-homework3.cpp.s:
-	$(MAKE) -f CMakeFiles/algo_lab6.dir/build.make CMakeFiles/algo_lab6.dir/homework3.cpp.s
-.PHONY : homework3.cpp.s
+homework1.cpp.s:
+	$(MAKE) -f CMakeFiles/algo_lab7.dir/build.make CMakeFiles/algo_lab7.dir/homework1.cpp.s
+.PHONY : homework1.cpp.s
 
 # Help Target
 help:
@@ -158,10 +158,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... algo_lab6"
-	@echo "... homework3.o"
-	@echo "... homework3.i"
-	@echo "... homework3.s"
+	@echo "... algo_lab7"
+	@echo "... homework1.o"
+	@echo "... homework1.i"
+	@echo "... homework1.s"
 .PHONY : help
 
 
