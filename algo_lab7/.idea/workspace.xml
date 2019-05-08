@@ -24,6 +24,10 @@
       <change beforePath="$PROJECT_DIR$/../algo_lab6/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../algo_lab6/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../algo_lab6/cmake-build-debug/algo_lab6" beforeDir="false" afterPath="$PROJECT_DIR$/../algo_lab6/cmake-build-debug/algo_lab6" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../algo_lab6/cmake-build-debug/algo_lab6.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../algo_lab6/cmake-build-debug/algo_lab6.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algo_lab6/homework1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../algo_lab6/homework1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algo_lab6/homework3.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../algo_lab6/homework3.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/homework1.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,11 +39,23 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/homework1.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="145" column="22" lean-forward="true" selection-start-line="145" selection-start-column="22" selection-end-line="145" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -58,13 +74,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/homework1.cpp" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
-    <option name="width" value="1680" />
-    <option name="height" value="955" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="838" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -133,17 +149,22 @@
       <updated>1555572910273</updated>
       <workItem from="1555572912096" duration="4000" />
       <workItem from="1555572948724" duration="49000" />
+      <workItem from="1555921176982" duration="752000" />
+      <workItem from="1556052675807" duration="55000" />
+      <workItem from="1556460882870" duration="50000" />
+      <workItem from="1556745391768" duration="825000" />
+      <workItem from="1556762554878" duration="506000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53000" />
+    <option name="totallyTimeSpent" value="2241000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="953" extended-state="6" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1971917" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -168,20 +189,23 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/homework1.cpp">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/homework2.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/homework1.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+        <state relative-caret-position="475">
+          <caret line="145" column="22" lean-forward="true" selection-start-line="145" selection-start-column="22" selection-end-line="145" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -57,27 +57,27 @@ include CMakeFiles/algo_lab6.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/algo_lab6.dir/flags.make
 
-CMakeFiles/algo_lab6.dir/homework3.cpp.o: CMakeFiles/algo_lab6.dir/flags.make
-CMakeFiles/algo_lab6.dir/homework3.cpp.o: /Users/gounchoi/Desktop/동대생최고운/3학년1학기/컴퓨터알고리즘과실습/Algorithm_DGU/algo_lab6/homework3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gounchoi/Desktop/동대생최고운/3학년1학기/컴퓨터알고리즘과실습/Algorithm_DGU/algo_lab6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/algo_lab6.dir/homework3.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/algo_lab6.dir/homework3.cpp.o -c /Users/gounchoi/Desktop/동대생최고운/3학년1학기/컴퓨터알고리즘과실습/Algorithm_DGU/algo_lab6/homework3.cpp
+CMakeFiles/algo_lab6.dir/homework1.cpp.o: CMakeFiles/algo_lab6.dir/flags.make
+CMakeFiles/algo_lab6.dir/homework1.cpp.o: /Users/gounchoi/Desktop/동대생최고운/3학년1학기/컴퓨터알고리즘과실습/Algorithm_DGU/algo_lab6/homework1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gounchoi/Desktop/동대생최고운/3학년1학기/컴퓨터알고리즘과실습/Algorithm_DGU/algo_lab6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/algo_lab6.dir/homework1.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/algo_lab6.dir/homework1.cpp.o -c /Users/gounchoi/Desktop/동대생최고운/3학년1학기/컴퓨터알고리즘과실습/Algorithm_DGU/algo_lab6/homework1.cpp
 
-CMakeFiles/algo_lab6.dir/homework3.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/algo_lab6.dir/homework3.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/gounchoi/Desktop/동대생최고운/3학년1학기/컴퓨터알고리즘과실습/Algorithm_DGU/algo_lab6/homework3.cpp > CMakeFiles/algo_lab6.dir/homework3.cpp.i
+CMakeFiles/algo_lab6.dir/homework1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/algo_lab6.dir/homework1.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/gounchoi/Desktop/동대생최고운/3학년1학기/컴퓨터알고리즘과실습/Algorithm_DGU/algo_lab6/homework1.cpp > CMakeFiles/algo_lab6.dir/homework1.cpp.i
 
-CMakeFiles/algo_lab6.dir/homework3.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/algo_lab6.dir/homework3.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/gounchoi/Desktop/동대생최고운/3학년1학기/컴퓨터알고리즘과실습/Algorithm_DGU/algo_lab6/homework3.cpp -o CMakeFiles/algo_lab6.dir/homework3.cpp.s
+CMakeFiles/algo_lab6.dir/homework1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/algo_lab6.dir/homework1.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/gounchoi/Desktop/동대생최고운/3학년1학기/컴퓨터알고리즘과실습/Algorithm_DGU/algo_lab6/homework1.cpp -o CMakeFiles/algo_lab6.dir/homework1.cpp.s
 
 # Object files for target algo_lab6
 algo_lab6_OBJECTS = \
-"CMakeFiles/algo_lab6.dir/homework3.cpp.o"
+"CMakeFiles/algo_lab6.dir/homework1.cpp.o"
 
 # External object files for target algo_lab6
 algo_lab6_EXTERNAL_OBJECTS =
 
-algo_lab6: CMakeFiles/algo_lab6.dir/homework3.cpp.o
+algo_lab6: CMakeFiles/algo_lab6.dir/homework1.cpp.o
 algo_lab6: CMakeFiles/algo_lab6.dir/build.make
 algo_lab6: CMakeFiles/algo_lab6.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/gounchoi/Desktop/동대생최고운/3학년1학기/컴퓨터알고리즘과실습/Algorithm_DGU/algo_lab6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable algo_lab6"

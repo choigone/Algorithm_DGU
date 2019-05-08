@@ -40,7 +40,7 @@ public:
 };
 
 infoType BST::BSTsearch(itemType v) {
-    struct node *x = head->r;
+            struct node *x = head->r;
     z->key = v;
     while(v != x->key) x = (v < x->key) ? x->l:x->r;
     return x->info;

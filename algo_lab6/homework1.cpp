@@ -63,8 +63,8 @@ int main() {
     for(int i=0;i<size;i++) a[i] = v[i].second;
 
     BST bst = BST(size);
-    for(int i=0;i<size;i++) bst.BSTinsert(a[i],0);
-    int count=0;
+    for(int i=0;i<size;i++) bst.BSTinsert(a[i],infoNIL);
+    int count=infoNIL;
     for(int i=1;i<=size;i++) count+=bst.BSTsearch(i);
 
     cout << (double)count/(double)size;
