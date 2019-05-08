@@ -12,22 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81df25c7-c881-4705-b53e-74dd17388f4d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../algo_lab6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../algo_lab6/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../algo_lab6/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../algo_lab6/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../algo_lab6/cmake-build-debug/CMakeFiles/algo_lab6.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../algo_lab6/cmake-build-debug/CMakeFiles/algo_lab6.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../algo_lab6/cmake-build-debug/CMakeFiles/algo_lab6.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../algo_lab6/cmake-build-debug/CMakeFiles/algo_lab6.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../algo_lab6/cmake-build-debug/CMakeFiles/algo_lab6.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../algo_lab6/cmake-build-debug/CMakeFiles/algo_lab6.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../algo_lab6/cmake-build-debug/CMakeFiles/algo_lab6.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../algo_lab6/cmake-build-debug/CMakeFiles/algo_lab6.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../algo_lab6/cmake-build-debug/CMakeFiles/algo_lab6.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../algo_lab6/cmake-build-debug/CMakeFiles/algo_lab6.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../algo_lab6/cmake-build-debug/CMakeFiles/algo_lab6.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../algo_lab6/cmake-build-debug/CMakeFiles/algo_lab6.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../algo_lab6/cmake-build-debug/CMakeFiles/algo_lab6.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../algo_lab6/cmake-build-debug/CMakeFiles/algo_lab6.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../algo_lab6/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../algo_lab6/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../algo_lab6/cmake-build-debug/algo_lab6" beforeDir="false" afterPath="$PROJECT_DIR$/../algo_lab6/cmake-build-debug/algo_lab6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../algo_lab6/cmake-build-debug/algo_lab6.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../algo_lab6/cmake-build-debug/algo_lab6.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../algo_lab6/homework1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../algo_lab6/homework1.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../algo_lab6/homework3.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../algo_lab6/homework3.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../algo_lab7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../algo_lab7/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../algo_lab7/homework1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../algo_lab7/homework1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../test/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
