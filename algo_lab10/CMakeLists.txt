@@ -3,4 +3,4 @@ project(algo_lab10)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(algo_lab10 main.cpp)
+add_executable(algo_lab10 homework1.cpp)
